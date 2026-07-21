@@ -5,9 +5,6 @@
     "dockerfilePath": "Dockerfile"
   },
   "deploy": {
-    "startCommand": "python start_web.py",
-    "healthcheckPath": "/_stcore/health",
-    "healthcheckTimeout": 120,
     "restartPolicyType": "ALWAYS",
     "restartPolicyMaxRetries": 10
   }
